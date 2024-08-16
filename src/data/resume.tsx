@@ -4,10 +4,10 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 
 export const DATA = {
-  name: "Yassine Yassif",
-  initials: "YY",
-  url: "https://yyassif.dev",
-  location: "Quebec, CA",
+  name: "Amine Firdawsi",
+  initials: "AF",
+  url: "https://aminefirdawsi.com",
+  location: "Casablanca, MAR",
   locationLink: "https://www.google.com/maps/place/quebec",
   description: "Goal-oriented Software Engineer | ML/DL Passionate. I am dedicated to building high-quality products.",
   summary:
@@ -44,12 +44,12 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "yassif.yassine@gmail.com",
+    email: "aminefirdawsi@gmail.com",
     tel: "+1 581-672-6965",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/yyassif",
+        url: "https://github.com/aminef0",
         icon: Icons.github,
         navbar: true,
       },
@@ -76,7 +76,7 @@ export const DATA = {
 
   work: [
     {
-      company: "LMP3",
+      company: "Cosumar Group",
       href: "https://lmp3.ca",
       badges: [],
       location: "Rimouski, Canada",
