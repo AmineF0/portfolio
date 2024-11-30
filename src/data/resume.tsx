@@ -138,13 +138,7 @@ export const DATA = {
       "active": false,
       "description": "Built a distributed system with fault-tolerance, ensuring high availability for real-time data streaming.",
       "technologies": ["Kafka", "ZooKeeper", "Docker", "Python"],
-      "links": [
-        {
-          "type": "Source",
-          "href": "https://github.com/aminef0/kafka-zookeeper",
-          "icon": "github"
-        }
-      ]
+      "links": []
     },
     {
       "title": "AI Mental Health Dashboard",
