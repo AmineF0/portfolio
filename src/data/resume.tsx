@@ -1,35 +1,28 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
-
-
 export const DATA = {
-  name: "Amine Firdawsi",
-  initials: "AF",
-  url: "https://aminefirdawsi.com",
-  location: "Casablanca, MAR",
-  locationLink: "https://www.google.com/maps/place/quebec",
-  description: "Goal-oriented Software Engineer | ML/DL Passionate. I am dedicated to building high-quality products.",
-  summary:
-    "I'm a passionate Software Engineer based in Quebec, Canada (Currently). With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
-  avatarUrl: "/me.jpg",
-  skills: [
+  "name": "Amine Firdawsi",
+  "initials": "AF",
+  "url": "https://aminefirdawsi.com",
+  "location": "Casablanca, Morocco",
+  "locationLink": "https://www.google.com/maps/place/Casablanca",
+  "description": "Future Industrial Engineer | AI & Data Science Enthusiast | Competitive Programmer",
+  "summary": "I'm a passionate engineering student at ENSAM-Meknès, specializing in Artificial Intelligence and Data Science. With a strong foundation in front-end and back-end technologies, I focus on designing scalable, user-centric solutions that integrate AI for real-world applications. I've also competed in national and international hackathons and programming contests, achieving significant accolades.",
+  "avatarUrl": "/assets/me.jpg",
+  "skills": [
     "TypeScript",
     "Python",
     "Java",
     "Rust",
     "C++",
     "Go",
-    "R",
-    "Node.js",
+    "React",
     "Next.js",
     "Django",
     "FastAPI",
-    "React",
-    "TailwindCSS",
     "LLMs (Large Language Models)",
     "PyTorch",
-    "OpenAI-Gym",
     "OpenCV",
     "PostgreSQL",
     "Supabase",
@@ -37,502 +30,173 @@ export const DATA = {
     "Kubernetes",
     "Terraform",
     "AWS",
-    "Git & GitHub / GitLab"
+    "Git & GitHub",
+    "TailwindCSS",
+    "Flask",
+    "Scikit-learn",
+    "TensorFlow",
+    "NGINX",
+    "MongoDB",
+    "Pocketbase",
+    "Pandas"
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+  "navbar": [
+    // { "href": "/", "icon": "HomeIcon", "label": "Home" },
+    // { "href": "/blog", "icon": "NotebookIcon", "label": "Blog" },
+    // { "href": "/projects", "icon": "CodeIcon", "label": "Projects" },
+    // { "href": "/contact", "icon": "MailIcon", "label": "Contact" }
   ],
-  contact: {
-    email: "aminefirdawsi@gmail.com",
-    tel: "+1 581-672-6965",
-    social: {
-      GitHub: {
-        name: "GitHub",
-        url: "https://github.com/aminef0",
-        icon: Icons.github,
-        navbar: true,
+  "contact": {
+    "email": "aminefirdawsi@gmail.com",
+    "tel": "+212 648-248592",
+    "social": {
+      "GitHub": {
+        "name": "GitHub",
+        "url": "https://github.com/aminef0",
+        "icon": "github",
+        "navbar": false
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yassineyassif",
-        icon: Icons.linkedin,
-        navbar: true,
+      "LinkedIn": {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/aminefirdawsi",
+        "icon": "linkedin",
+        "navbar": false
       },
-      X: {
-        name: "X",
-        url: "https://x.com/yassineyassif",
-        icon: Icons.x,
-        navbar: true,
+      "Codeforces": {
+        "name": "Codeforces",
+        "url": "https://codeforces.com/profile/AmineF0",
+        "icon": "code",
+        "navbar": false
       },
-      email: {
-        name: "Send Email",
-        url: "mailto:yassif.yassine@gmail.com",
-        icon: Icons.email,
-        navbar: true,
+      "LeetCode": {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/u/AmineF0",
+        "icon": "leetcode",
+        "navbar": false
       },
-    },
+      "email": {
+        "name": "Email",
+        "url": "mailto:aminefirdawsi@gmail.com",
+        "icon": "mail",
+        "navbar": false
+      }
+    }
   },
-
-  work: [
+  "work": [
     {
-      company: "Cosumar Group",
-      href: "https://lmp3.ca",
-      badges: [],
-      location: "Rimouski, Canada",
-      title: "Software Engineer",
-      logoUrl: "/assets/work/lmp3.png",
-      start: "Aug 2024",
-      end: "Present",
-      description: "",
+      "company": "University of Quebec at Rimouski",
+      "href": "https://uqar.ca",
+      "location": "Rimouski, Canada",
+      "title": "Software Development Intern",
+      "logoUrl": "/assets/work/uqar.png",
+      "start": "Oct 2023",
+      "end": "Present",
+      "description": "Developed real-time IoT platforms for data logging and visualization. Utilized Python, InfluxDB, Docker, and Unreal Engine for robust system architecture."
     },
     {
-      company: "PowerGO France",
-      badges: [],
-      href: "https://powergo.fr",
-      location: "On-site",
-      title: "Software Engineer",
-      logoUrl: "/assets/work/powergo.png",
-      start: "Feb 2024",
-      end: "Jul 2024",
-      description: "AI agents that use Retrieval-Augmented Generation (RAG) techniques to efficiently analyze enterprise documents. These agents will extract key insights to support data-driven decision-making.",
+      "company": "Gloowon",
+      "location": "Casablanca, Morocco",
+      "title": "Full Stack Developer",
+      "logoUrl": "/assets/work/gloowon.png",
+      "start": "Feb 2023",
+      "end": "Oct 2023",
+      "description": "Built scalable platforms using the MERN Stack and integrated S3 for efficient storage management."
     },
     {
-      company: "University of Quebec at Rimouski",
-      href: "https://uqar.ca",
-      badges: [],
-      location: "Rimouski, Canada",
-      title: "Software Architect",
-      logoUrl: "/assets/work/uqar.png",
-      start: "Jul 2023",
-      end: "Oct 2023",
-      description: "A robust IoT-based system architecture integrates real-time data logging with a user-friendly dashboard, utilizing cloud technology and LLM inference for data interpretation and action triggering.",
-    },
-    {
-      company: "ONEE - Electricity Branch",
-      href: "http://www.one.org.ma",
-      badges: [],
-      location: "Agadir, Morocco",
-      title: "Networking Engineer",
-      logoUrl: "/assets/work/onee.png",
-      start: "Jul 2022",
-      end: "Sep 2022",
-      description: "Coordinated with Senior Engineers in validating a new protocol architecture for reliable and secure communication between various types of devices, such as sensors, RTUs and SCADA to achieve a robust control over the systems involved.",
-    },
-    {
-      company: "Upwork",
-      href: "https://www.upwork.com/",
-      badges: [],
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/assets/work/upwork.png",
-      start: "Jan 2022",
-      end: "Feb 2024",
-      description: "I leverage AI expertise and web development skills to create customized and innovative solutions for my clients.",
-    },
-  ],
-  education: [
-    {
-      school: "University of Moulay Ismail - ENSAM-Meknes",
-      href: "http://www.ensam-umi.ac.ma/?lang=en",
-      degree: "Bachelor's of Engineering in Artificial Intelligence & Data Science",
-      logoUrl: "/assets/education/ensam.png",
-      start: "2020",
-      end: "2025",
+      "company": "Cosumar Group",
+      "location": "Casablanca, Morocco",
+      "title": "Industrial Engineering Intern",
+      "logoUrl": "/assets/work/cosumar.png",
+      "start": "Jul 2023",
+      "end": "Aug 2023",
+      "description": "Analyzed production line efficiency and proposed optimizations for better operational output."
     },
     // {
-    //   school: "Ibn Soulaiman Roudani High School",
-    //   href: "https://www.facebook.com/ibnsoulaimanroudanitaroudant",
-    //   degree: "Mathematical Sciences Baccalaureate",
-    //   logoUrl: "/assets/education/ibn-soulaiman.png",
-    //   start: "2016",
-    //   end: "2019",
+    //   "company": "DRC",
+    //   "location": "Casablanca, Morocco",
+    //   "title": "Freelance Frontend Developer",
+    //   "logoUrl": "/assets/work/drc.png",
+    //   "start": "Jun 2024",
+    //   "end": "Dec 2024",
+    //   "description": "Designed and developed websites using React and Angular. Built a demo backend with Flask for secure user management."
     // }
   ],
-  projects: [
-    // {
-    //   title: "LMP3",
-    //   href: "https://lmp.ca",
-    //   dates: "June 2024 - Present",
-    //   active: true,
-    //   description:
-    //     "LMP3: Innovator Lab in advanced materials and manufacturing processes, focusing on Fishing 4.0, Drilling 4.0, and Manufacturing 4.0 for a sustainable industrial future.",
-    //   technologies: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "TailwindCSS",
-    //     "Resend",
-    //     "Strapi",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://lmp3.ca",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/lmp3.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "RAGMind",
-    //   href: "https://github.com/yyassif/ragmind",
-    //   dates: "March 2024 - Present",
-    //   active: true,
-    //   description: "RAGMind - RAG-Powered Conversational AI Assistant for Enterprise Data, Enforced by Generative AI.",
-    //   technologies: [
-    //     "OpenAI",
-    //     "LiteLLM",
-    //     "Next.js",
-    //     "FastAPI",
-    //     "TypeScript",
-    //     "Supabase",
-    //     "PgVector",
-    //     "Resend",
-    //     "Ollama",
-    //     "GoogleAuth",
-    //     "DuckDuckGo",
-    //     "TailwindCSS",
-    //     "LangChain",
-    //     "LlamaIndex",
-    //     "Sentry",
-    //     "Docker",
-    //     "Vercel",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/ragmind",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/ragmind.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "Fishing Boats Simulation in RL",
-    //   href: "https://github.com/yyassif/gym-seaboat",
-    //   dates: "June 2023 - July 2023",
-    //   active: true,
-    //   description: "Fishing Boats Simulation in OpenAI-Gym using Reinforcement Learning & PPO Algorithm, GUI Via PyGame.",
-    //   technologies: [
-    //     "OpenAI-Gym",
-    //     "PyGame",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/gym-seaboat",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/gym-seaboat.jpg",
-    //   video: "",
-    // },
-    // {
-    //   title: "PDF Document Q&A",
-    //   href: "https://github.com/yyassif/nextjs-document-retrievalQA",
-    //   dates: "February 2024 - March 2024",
-    //   active: true,
-    //   description: "Chat With Your Documents via RAG (Retrieval Augmented Generation) leveraging the power of LLMs & PgVecor Store.",
-    //   technologies: [
-    //     "OpenAI",
-    //     "Next.js",
-    //     "TypeScript",
-    //     "Supabase",
-    //     "PgVector",
-    //     "Redis",
-    //     "Ollama",
-    //     "TailwindCSS",
-    //     "LangChain",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/nextjs-document-retrievalQA",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/document-qa.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "Adeam.ma",
-    //   href: "https://adeam.ma",
-    //   dates: "January 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed a platform featuring a landing page for team presentation and activities, and a dashboard providing students with digital course access and class-specific news feeds.",
-    //   technologies: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "NextAuth.js",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://adeam.ma",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/adeam.png",
-    //   video: "",
-    // },
+  "education": [
     {
-      title: "Squatex",
-      href: "https://squatex.com",
-      dates: "June 2023 - July 2023",
-      active: true,
-      description: "Squatex: Quebec's leader in renewable energy, driving innovation for a greener, sustainable future.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Prisma",
-        "tRPC",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Vercel",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://squatex.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/assets/projects/squatex.png",
-      video: "",
-    },
-    // {
-    //   title: "Amazon Prodcuts Recommendation via ALS Algorithm",
-    //   href: "https://github.com/yyassif/docker-spark-hadoop-for-recommendation",
-    //   dates: "December 2023",
-    //   active: true,
-    //   description:
-    //     "Using All Big Data Technologies In Order To Apply ALS Algorithm To Recommend Amazon Prodcuts.",
-    //   technologies: [
-    //     "ALS Algorithm",
-    //     "Spark",
-    //     "Hadoop",
-    //     "Scala",
-    //     "Python",
-    //     "Docker",
-    //     "Makefile",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/docker-spark-hadoop-for-recommendation",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/docker-spark-hadoop-for-recommendation.jpg",
-    //   video: "",
-    // },
-    // {
-    //   title: "Spotify Recommender",
-    //   href: "https://github.com/yyassif/spotify-recommender",
-    //   dates: "April 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    //   technologies: [
-    //     "Next.js",
-    //     "TypeScript",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Spotify-SDK",
-    //     "FastAPI",
-    //     "Scikit-learn"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Frontend",
-    //       href: "https://github.com/yyassif/spotify-recommender",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //     {
-    //       type: "Backend",
-    //       href: "https://github.com/yyassif/spotify-fastapi",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/spotify-recommender.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "CV-Ranker",
-    //   href: "https://github.com/yyassif/cvranker",
-    //   dates: "June 2024",
-    //   active: true,
-    //   description: "CV Ranker Application using the Power of LLMs.",
-    //   technologies: [
-    //     "GPT-4o",
-    //     "LangChain",
-    //     "LlamaIndex",
-    //     "FastAPI",
-    //     "DuckDuckGO",
-    //     "Docker",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/cvranker",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/cvranker.jpg",
-    //   video: "",
-    // },
-    {
-      title: "LGuide-AI",
-      href: "https://github.com/yyassif/thinkai-lguide",
-      dates: "May 2024",
-      active: true,
-      description: "LGuide-AI - Your Best Touristic Assistant, Empowered by Generative AI.",
-      technologies: [
-        "GPT-4o",
-        "Google-Maps-API",
-        "FastAPI",
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Docker",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/yyassif/thinkai-lguide",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/assets/projects/lguideai.webp",
-      video: "",
-    },
-    // {
-    //   title: "Headshot AI - Professional Headshots",
-    //   href: "https://github.com/yyassif/headshot-ai",
-    //   dates: "January 2024 - April 2024",
-    //   active: true,
-    //   description:
-    //     "Headshot AI, let you generates Professional AI Headshots in minutes with AI (Powered by Astria.ai).",
-    //   technologies: [
-    //     "Next.js",
-    //     "Astria.AI",
-    //     "Supabase",
-    //     "Resend",
-    //     "Shadcn UI",
-    //     "TailwindCSS",
-    //     "Magic UI",
-    //     "Vercel",
-    //     "Stripe",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/headshot-ai",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/headshot-ai.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "Data Augmentation by GANs",
-    //   href: "https://github.com/yyassif/Data-Augmentation-GANs",
-    //   dates: "April 2023 - June 2023",
-    //   active: true,
-    //   description:
-    //     "Data Augmentation powered by GANs (Generative Adversarial Networks) architecture for industrial use cases, specifically Image Data Augmentation for quality inspection tasks.",
-    //   technologies: [
-    //     "PyTorch",
-    //     "Pillow",
-    //     "Pandas",
-    //     "Numpy",
-    //     "LaTex",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Overleaf",
-    //       href: "https://www.overleaf.com/project/647782bbe6a354d0850c3e89",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/Data-Augmentation-GANs",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/Data-Augmentation-GANs.jpg",
-    //   video: "",
-    // },
-    // {
-    //   title: "kNN-Gzip - Deep Learning",
-    //   href: "https://github.com/yyassif/kNN-Gzip-deep-learning",
-    //   dates: "January 2024",
-    //   active: true,
-    //   description: "Simplistic Linear & Multiprocessed approach to sentiment analysis using Gzip Normalized Compression Distances with k nearest neighbors.",
-    //   technologies: [
-    //     "Gzip",
-    //     "scikit-learn",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Github",
-    //       href: "https://github.com/yyassif/kNN-Gzip-deep-learning",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/assets/projects/kNN-Gzip-deep-learning.jpg",
-    //   video: "",
-    // },
+      "school": "University of Moulay Ismail - ENSAM-Meknes",
+      "href": "http://www.ensam-umi.ac.ma/?lang=en",
+      "degree": "Engineering Degree in Artificial Intelligence & Data Science",
+      "logoUrl": "/assets/education/ensam.png",
+      "start": "2020",
+      "end": "2025"
+    }
   ],
-  hackathons: [
+  "projects": [
     {
-      title: "UPF Coding Challenge",
-      dates: "May 26th, 2021",
-      location: "Fez, Morocco",
-      description: "Solved all the problems securing the 2nd prize.",
-      image: "/assets/hackatons/upf.png",
-      mlh: "",
-      links: [
+      "title": "Fault-Tolerant Distributed Systems with Kafka & ZooKeeper",
+      "dates": "Oct 2024 - Jan 2025",
+      "active": false,
+      "description": "Built a distributed system with fault-tolerance, ensuring high availability for real-time data streaming.",
+      "technologies": ["Kafka", "ZooKeeper", "Docker", "Python"],
+      "links": [
         {
-          title: "Gallery",
-          href: "https://upf.ac.ma/detailevent.aspx?idevent=33",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "MCPC: Moroccan Collegiate Programming Contest",
-      dates: "Oct 19th, 2021",
-      location: "Morocco",
-      description: "Solved 7 problems out of 12 in total, attaining the 18th place in the national elimination round.",
-      image: "/assets/hackatons/mcpc.jpg",
-      mlh: "",
-      links: [
-        {
-          
-          title: "Leaderboard",
-          href: "https://x.com/mcpc__news/status/1450595581806747649",
-          icon: <Icons.x className="size-3" />,
+          "type": "Source",
+          "href": "https://github.com/aminef0/kafka-zookeeper",
+          "icon": "github"
         }
-      ],
+      ]
     },
     {
-      title: "ThinkAI Hackathon",
-      dates: "May 16th - 19th, 2024",
-      location: "Ben Guerir, Morocco",
-      description: "Developed a virtual guide called LGuideAI that helps tourists to navigate morocco easily via the a geolocation system that serves for better discoveery of places.",
-      image: "/assets/hackatons/thinkai.jpeg",
-      mlh: "",
-      links: [],
+      "title": "AI Mental Health Dashboard",
+      "dates": "Sep 2024 - Jan 2025",
+      "active": true,
+      "description": "Developed a real-time monitoring system using AI for workplace mental health assessment.",
+      "technologies": ["Python", "Spark", "React", "Kafka"],
+      "links": []
     },
+    {
+      "title": "AI Initiation: Factory Safety System",
+      "dates": "Oct 2023 - Jan 2024",
+      "active": false,
+      "description": "Developed an AI system for detecting inappropriate behaviors in factories, enhancing safety protocols.",
+      "technologies": ["Python", "Next.js"],
+      "links": []
+    },
+    {
+      "title": "SchoolApp Bell",
+      "dates": "Jan 2021 - Jan 2022",
+      "active": false,
+      "description": "Android application developed with Flutter for students to track grades and attendance.",
+      "technologies": ["Flutter", "Dart"],
+      "links": []
+    }
+  ],
+  "hackathons": [
+    {
+      "title": "ThinkAI Hackathon",
+      "dates": "May 16th - 19th, 2024",
+      "location": "Ben Guerir, Morocco",
+      "description": "Developed LGuide-AI, a virtual guide for tourists powered by generative AI and geolocation.",
+      "links": []
+    },
+    {
+      "title": "Moroccan National Programming Contest",
+      "dates": "2022 & 2023",
+      "location": "Morocco",
+      "description": "Achieved 6th place in MNPC 2022 and 13th place in MNPC 2023."
+    },
+    {
+      "title": "Bot Programming Contest",
+      "dates": "2022",
+      "location": "UM6P, Morocco",
+      "description": "Secured 2nd place for a bot programming challenge focused on AI optimization.",
+      "links": []
+    },
+    {
+      "title": "UPF Programming Contest",
+      "dates": "2022 & 2024",
+      "location": "Morocco",
+      "description": "Won 1st place in 2024 and 3rd place in 2022."
+    }
   ]
 } as const;

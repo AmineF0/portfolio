@@ -202,17 +202,9 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just drop a DM{" "}
+                Want to chat? simply email me{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
-                  target="_blank"
-                  className="text-blue-500 hover:underline"
-                >
-                  @X
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. Or, simply email me{" "}
-                <Link
-                  href={`${DATA.contact.social.email.url}?subject=Hey%20Yassif`}
+                  href={`${DATA.contact.social.email.url}?subject=Hey%20Amine!`}
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
