@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
-  applicationName: "yyassif",
-  generator: "yyassif",
+  applicationName: "aminef0",
+  generator: "aminef0",
   category: "technology",
   metadataBase: new URL(DATA.url),
   keywords: [
@@ -135,29 +135,29 @@ export const metadata: Metadata = {
     "green tech",
     "sustainability solutions",
   ],
-  openGraph: {
-    title: DATA.name,
-    description: DATA.description,
-    url: DATA.url,
-    siteName: DATA.name,
-    images: [
-      {
-        url: DATA.ogImage,
-        width: 1200,
-        height: 600,
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
+  // openGraph: {
+  //   title: DATA.name,
+  //   description: DATA.description,
+  //   url: DATA.url,
+  //   siteName: DATA.name,
+  //   images: [
+  //     {
+  //       url: DATA.ogImage,
+  //       width: 1200,
+  //       height: 600,
+  //     },
+  //   ],
+  //   locale: "en_US",
+  //   type: "website",
+  // },
   authors: [
     {
-      name: "yyassif",
-      url: "https://yyassif.dev",
+      name: "aminef0",
+      url: "https://aminefirdawsi.com",
     },
   ],
-  creator: "YASSIF Yassine",
-  publisher: "YASSIF Yassine",
+  creator: "Amine Firdawsi",
+  publisher: "Amine Firdawsi",
   robots: {
     index: true,
     follow: true,
@@ -169,14 +169,14 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    card: "summary_large_image",
-    title: DATA.name,
-    description: DATA.description,
-    site: "@yassineyassif",
-    creator: "@yassineyassif",
-    images: [DATA.ogImage],
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: DATA.name,
+  //   description: DATA.description,
+  //   site: "@yassineyassif",
+  //   creator: "@yassineyassif",
+  //   images: [DATA.ogImage],
+  // },
   verification: {
     google: "",
     yandex: "",
@@ -362,10 +362,11 @@ export default function Page() {
                   @email.
                 </Link>
               </p>
-            </div>
           </BlurFade>
+
         </div>
       </section>
+      </div>
     </main>
   );
 }
